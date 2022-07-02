@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Lora:ital,wght@1,500;1,700&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: linear-gradient(#0a205a, #010913);
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+.main {
+  padding: 40px;
+  background: linear-gradient(#0036ca29, #cee9003a);
+  border-radius: 25px 0 25px 0;
+}
+.wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.green {
+  background-color: rgb(34, 206, 34);
+}
+
+.list {
+  width: 400px;
+  margin: 0 auto;
+  overflow: auto;
+  height: 200px;
+}
+
+.list__item {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 12px 0px 12px 0px;
+}
+.list__item::marker {
+  color: white;
+  font-size: 14px;
+}
+.list__item:hover {
+  text-shadow: 0 0 4px rgb(71, 59, 240);
+}
+
+#input {
+  border: none;
+  padding: 10px;
+  height: 20px;
+  background: white;
+  border-radius: 12px 0px 12px 0;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  width: 70%;
+}
+#btn {
+  height: 40px;
+  border: none;
+  border-radius: 0 0px 12px 12px;
+  background: #1350f7;
+  color: white;
+}
+
+.deleteBtn {
+  border: 1px solid red;
+  background: rgb(236, 6, 6);
+  border-radius: 12px 0px 12px 0px;
+  height: 25px;
+  width: 60px;
+}
+.editBtn {
+  border: 1px solid #ff9807;
+  background: #ffc107;
+  border-radius: 0px 12px 0px 12px;
+  height: 25px;
+  width: 60px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: rgb(221, 221, 221);
+  border: 1px solid;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 255, 115);
+  border: 1px solid;
+}
